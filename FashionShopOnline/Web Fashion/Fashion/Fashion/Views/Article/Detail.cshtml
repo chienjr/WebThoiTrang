@@ -1,0 +1,33 @@
+﻿@model Model.EF.BaiViet
+
+@{
+    ViewBag.Title = "Detail";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+@section Menu_Article
+{
+    @{
+        Html.RenderAction("Menu_Article", "Article");
+    }
+}
+
+<div id="blog-post">
+    <div class="box">
+        <h1>@Model.TieuDe</h1>
+        <p class="lead">@Model.MoTa</p>
+
+        <div id="post-content">
+            @Html.DisplayTextFor(x => x.NoiDung)
+            <p>
+                <img src="@Model.HinhAnhBaiViet" class="img-responsive">
+            </p>
+
+            <blockquote>
+                <p><i>Mọi bài viết lấy thông tin từ <strong>Stylitic.com</strong> xin vui lòng ghi rõ nguồn!</i></p>
+            </blockquote>
+
+        </div>
+    </div>
+</div>

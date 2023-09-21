@@ -1,0 +1,20 @@
+﻿@model List<Model.EF.QuangCao>
+
+<div class="container" data-animate="fadeInUpBig">
+    <div class="col-md-12">
+        <div class="box slideshow">
+            <h3>CẢM HỨNG SÁNG TẠO</h3>
+            <p class="lead">Sản phẩm được truyền cảm hứng từ những nhà thiết kế hàng đầu</p>
+            <div id="get-inspired" class="owl-carousel owl-theme">
+                @foreach(var item in Model)
+                {
+                    <div class="item">
+                    <a href="#">
+                        <img src="@item.HinhAnhQC" alt="Get inspired" class="img-responsive">
+                    </a>
+                </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>

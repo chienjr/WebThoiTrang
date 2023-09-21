@@ -1,0 +1,140 @@
+﻿@model List<Fashion.Models.CartItem>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<script>
+    function update(id)
+    {
+        window.location = "/Cart/Update?key=" + id + "&quantity=" + document.getElementById(id).value+"0";
+    }
+</script>
+<div id="basket">
+    <div class="box">
+        <h1>THÔNG TIN GIỎ HÀNG</h1>
+        @{
+            var sum = 0;
+            <div class="table-responsive">
+                @if (Model.Count > 0)
+                {
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Hình ảnh</th>
+                                <th>Tên sản phẩm</th>
+                                <th>Đơn giá</th>
+                                <th>Số lượng</th>
+                                <th>Tổng tiền</th>
+                                <th colspan="2">Thao tác</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                if (@item.Product.GiaKhuyenMai != null)
+                                {
+                                    var s = (int)@item.Product.GiaKhuyenMai * @item.Quantity;
+                                    var saleprice = (int)@item.Product.GiaKhuyenMai;
+                                    <tr id="row_@item.Product.MaSP&@item.Color.MaMau&@item.Size.MaSize">
+                                        <td><img width="100" src="@item.Product.HinhAnhSP" /></td>
+                                        <td>@item.Product.TenSP<br /><i>Màu: @item.Color.TenMau, Size: @item.Size.TenSize</i></td>
+                                        <td>@saleprice.ToString("0,0")</td>
+                                        <td><input type="number" value="@item.Quantity" id="@item.Key" /></td>
+                                        <td>@s.ToString("0,0")</td>
+                                        <td><a href="#" onclick="update(@item.Key)" style="text-decoration:none">Cập nhật</a></td>
+                                        <td><a href="/Cart/Delete?key=@item.Key"><i class="fa fa-trash-o"></i></a></td>
+                                    </tr>
+                                    sum += (int)@s;
+                                }
+                                else
+                                {
+                                    var s = @item.Product.GiaSP * @item.Quantity;
+                                    <tr id="row_@item.Product.MaSP&@item.Color.MaMau&@item.Size.MaSize">
+                                        <td><img width="100" src="@item.Product.HinhAnhSP" /></td>
+                                        <td>@item.Product.TenSP<br /><i>Màu: @item.Color.TenMau, Size: @item.Size.TenSize</i></td>
+                                        <td>@item.Product.GiaSP.ToString("0,0")</td>
+                                        <td><input type="number" value="@item.Quantity" id="@item.Key" /></td>
+                                        <td>@s.ToString("0,0")</td>
+                                        <td><a href="#" onclick="update(@item.Key)" style="text-decoration:none">Cập nhật</a></td>
+                                        <td><a href="/Cart/Delete?key=@item.Key"><i class="fa fa-trash-o"></i></a></td>
+                                    </tr>
+                                    sum += @s;
+                                }
+                            }
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <th colspan="3"></th>
+                                <th style="color:red">Tổng:</th>
+                                <th colspan="2" style="color:red">@sum.ToString("0,0") VNĐ</th>
+                            </tr>
+                        </tfoot>
+                    </table>
+                }
+                else
+                {
+                    <span class="alert alert-danger">Chưa có sản phẩm nào trong giỏ hàng</span>
+                }
+            </div>
+        }
+        @{
+            var session = (Fashion.Common.UserLogin)Session["USER_SESSION"];
+            if (session != null)
+            {
+                using (Html.BeginForm("Order_Session", "Cart", FormMethod.Post))
+                {
+                    @Html.AntiForgeryToken()
+                    @Html.ValidationSummary(true)
+                    <div class="form-group" style="margin-top:30px;">
+                        <label for="email">Yêu cầu thêm</label>
+                        <input type="text" class="form-control" id="txtNote" name="txtNote">
+                    </div>
+                    <div class="box-footer">
+                        <div class="pull-right">
+                            <a href="/Cart/DeleteAll/" style="background: #7b7b7b; color: #fff;" class="btn">Hủy đơn hàng </a>
+                            <button type="submit" class="btn btn-primary" id="btnSubmit" name="btnSubmit">Gửi đơn hàng <i class="fa fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+                }
+            }
+            else
+            {
+                <h3>Vui lòng điền đầy đủ thông tin dưới đây</h3>
+                using (Html.BeginForm("Order", "Cart", FormMethod.Post))
+                {
+                    @Html.AntiForgeryToken()
+                    @Html.ValidationSummary(true)
+                    <div class="form-group">
+                        <label for="name">Tên khách hàng</label>
+                        <input type="text" class="form-control" id="txtName" name="txtName">
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Địa chỉ</label>
+                        <input type="text" class="form-control" id="txtAddress" name="txtAddress">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Số điện thoại</label>
+                        <input type="text" class="form-control" id="txtPhone" name="txtPhone" pattern="[\d]{10,11}">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="txtEmail" name="txtEmail">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Yêu cầu thêm</label>
+                        <input type="text" class="form-control" id="txtNote" name="txtNote">
+                    </div>
+                    <div class="box-footer">
+                        <div class="pull-right">
+                            <a href="/Cart/DeleteAll/" style="background: #7b7b7b; color: #fff;" class="btn">Hủy đơn hàng </a>
+                            <button type="submit" class="btn btn-primary" id="btnSubmit" name="btnSubmit">Gửi đơn hàng <i class="fa fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+                }
+            }
+        }
+    </div>
+</div>

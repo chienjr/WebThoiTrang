@@ -1,0 +1,334 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="robots" content="all,follow">
+    <meta name="googlebot" content="index,follow,snippet,archive">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Obaju e-commerce template">
+    <meta name="author" content="Ondrej Svestka | ondrejsvestka.cz">
+    <meta name="keywords" content="">
+
+    <title>
+        Stylitics Fashion
+    </title>
+
+    <meta name="keywords" content="">
+
+    <link href="http://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100" rel="stylesheet" type="text/css">
+
+    <!-- styles -->
+    <link href="~/Assets/Client/css/font-awesome.css" rel="stylesheet">
+    <link href="~/Assets/Client/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/Assets/Client/css/jquery-ui.css" rel="stylesheet">
+    <link href="~/Assets/Client/css/animate.min.css" rel="stylesheet">
+    <link href="~/Assets/Client/css/owl.carousel.css" rel="stylesheet">
+    <link href="~/Assets/Client/css/owl.theme.css" rel="stylesheet">
+
+    <!-- theme stylesheet -->
+    <link href="~/Assets/Client/css/style.default.css" rel="stylesheet" id="theme-stylesheet">
+
+    <!-- your stylesheet with modifications -->
+    <link href="~/Assets/Client/css/custom.css" rel="stylesheet">
+
+    <script src="~/Assets/Client/js/respond.min.js"></script>
+
+    <link rel="shortcut icon" href="~/Assets/Client/img/favicon.png">
+
+
+
+</head>
+
+<body>
+
+    <!-- *** TOPBAR ***
+    _________________________________________________________ -->
+    <div id="top">
+        @{
+            int check = 0;
+            var session = (Fashion.Common.UserLogin)Session["USER_SESSION"];
+            <div class="container">
+                <div class="col-md-6 offer" data-animate="fadeInDown">
+                </div>
+                <div class="col-md-6" data-animate="fadeInDown">
+                            <ul class="menu">
+                                @if (session != null)
+                                {
+                                    <li><a href="#" data-toggle="modal">Xin chào @session.Name</a></li>
+                                    <li><a href="/Home/Logout" data-toggle="modal">Đăng xuất</a></li>
+                                    <li><a href="/thong-tin-tai-khoan">Thông tin tài khoản</a></li>
+                                    check = 1;
+                                }
+                                else
+                                {
+                                    <li>
+                                        <a href="#" data-toggle="modal" data-target="#login-modal">Đăng nhập</a>
+                                    </li>
+                                    <li>
+                                        <a href="/dang-ky">Đăng ký</a>
+                                    </li>
+                                    <li>
+                                        <a href="/quen-mat-lhau">Quên mật khẩu</a>
+                                    </li>
+                                }
+                            </ul>
+                </div>
+            </div>
+
+            if (check == 0)
+            {
+                <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="Login" aria-hidden="true">
+                    <div class="modal-dialog modal-sm">
+
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                <h4 class="modal-title" id="Login">Đăng nhập</h4>
+                            </div>
+                            <div class="modal-body">
+                                @using (Html.BeginForm("Login", "Home", FormMethod.Post))
+                                {
+                                    Html.ValidationSummary(true, "", new { @class = "text-danger" });
+                                    <div class="form-group">
+                                        <input type="text" id="name" name="name" class="form-control" autofocus="autofocus" placeholder="Tên đăng nhập" />
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="password" id="password" name="password" class="form-control" placeholder="Mật khẩu" />
+                                    </div>
+
+                                    <p class="text-center">
+                                        <button type="submit" class="btn btn-primary"><i class="fa fa-sign-in"></i>Đăng nhập</button>
+                                    </p>
+                                }
+
+                                <p class="text-center text-muted">Bạn chưa đăng ký?</p>
+                                <p class="text-center text-muted"><a href="/dang-ky"><strong>Đăng ký ngay</strong></a>! Đăng ký đơn giản chỉ trong 1 phút và bạn có cơ hội nhận được rất nhiều ưu đãi!</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+    </div>
+
+    <!-- *** TOP BAR END *** -->
+    <!-- *** NAVBAR ***
+    _________________________________________________________ -->
+    <!--/.navbar-header -->
+    @{
+        Html.RenderAction("NavBar", "Home");
+    }
+    <!--/.nav-collapse -->
+    <!--/.nav-collapse -->
+    <!-- /.container -->
+    <!-- /#navbar -->
+    <!-- *** NAVBAR END *** -->
+
+
+
+    <div id="all">
+
+        <div id="content">
+
+
+            <div class="container">
+                <div class="col-md-12">
+                    @RenderSection("Slider", required: false)
+                </div>
+                <div class="col-md-9">
+
+                    @RenderBody()
+                    <!-- /#main-slider -->
+                </div>
+                <div class="col-md-3">
+                    @RenderSection("Menu_Profile", required: false)
+                    @RenderSection("Menu_Article", required: false)
+                    @RenderSection("Menu_Category", required: false)
+                </div>
+            </div>
+
+            <!-- *** ADVANTAGES HOMEPAGE ***
+            _________________________________________________________ -->
+            @RenderSection("Advantages", required: false)
+            <!-- /#advantages -->
+            <!-- *** ADVANTAGES END *** -->
+            <!-- *** HOT PRODUCT SLIDESHOW ***
+            _________________________________________________________ -->
+            @RenderSection("Hot_Product", required: false)
+            <!-- /#hot -->
+            <!-- *** HOT END *** -->
+            <!-- *** GET INSPIRED ***
+            _________________________________________________________ -->
+            @RenderSection("Inspired", required: false)
+            <!-- *** GET INSPIRED END *** -->
+            <!-- *** BLOG HOMEPAGE ***
+            _________________________________________________________ -->
+            @RenderSection("Article", required: false)
+            <!-- /.container -->
+            <!-- *** BLOG HOMEPAGE END *** -->
+
+
+        </div>
+        <!-- /#content -->
+        <!-- *** FOOTER ***
+        _________________________________________________________ -->
+        <div id="footer" data-animate="fadeInUp">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <h4>Thông tin</h4>
+
+                        <ul>
+                            <li>
+                                <a href="#">Giới thiệu</a>
+                            </li>
+                            <li>
+                                <a href="#">Quy định về quyền riêng tư</a>
+                            </li>
+                            <li>
+                                <a href="#">Tuyển dụng</a>
+                            </li>
+                            <li>
+                                <a href="#">Liên hệ</a>
+                            </li>
+                        </ul>
+
+                        <hr class="hidden-md hidden-lg hidden-sm">
+
+                    </div>
+                    <!-- /.col-md-3 -->
+
+                    <div class="col-md-3 col-sm-6">
+
+                        <h4>Dịch vụ khách hàng</h4>
+
+                        <ul>
+                            <li>
+                                <a href="#">Địa chỉ cửa hàng</a>
+                            </li>
+                            <li>
+                                <a href="#">Câu hỏi thường gặp</a>
+                            </li>
+                            <li>
+                                <a href="#">Điều khoản mua hàng online</a>
+                            </li>
+                            <li>
+                                <a href="#">Hướng dẫn mua hàng online</a>
+                            </li>
+                            <li>
+                                <a href="#">Chính sách vận chuyển</a>
+                            </li>
+                            <li>
+                                <a href="#">Phương thức thanh toán</a>
+                            </li>
+                        </ul>
+
+                        <hr class="hidden-md hidden-lg">
+
+                    </div>
+                    <!-- /.col-md-3 -->
+
+                    <div class="col-md-3 col-sm-6">
+
+                        <h4>Địa chỉ</h4>
+
+                        <p>
+                            <strong>Stylitics Fashion Ltd.</strong>
+                            <br>14 Hoà Phú
+                            <br>TP TDM
+                            <br>Bình Dương
+                            <br>
+                            <strong>Việt Nam</strong>
+                        </p>
+
+                        <a href="/lien-he">Đi đến trang Liên hệ</a>
+
+                        <hr class="hidden-md hidden-lg">
+
+                    </div>
+                    <!-- /.col-md-3 -->
+
+
+
+                    <div class="col-md-3 col-sm-6">
+
+                        <h4>Tin bài mới</h4>
+
+                        <p class="text-muted">Luôn theo dõi những xu hướng thời trang và cập nhật những sản phẩm mới nhất của chúng tôi</p>
+
+                        <form>
+                            <div class="input-group">
+
+                                <input type="text" class="form-control">
+
+                                <span class="input-group-btn">
+
+                                    <button class="btn btn-default" type="button">Đăng ký!</button>
+
+                                </span>
+
+                            </div>
+                            <!-- /input-group -->
+                        </form>
+
+                        <hr>
+
+                        <h4>Liên hệ với chúng tôi tại</h4>
+
+                        <p class="social">
+                            <a href="#" class="facebook external" data-animate-hover="tada"><i class="fa fa-facebook"></i></a>
+                            <a href="#" class="twitter external" data-animate-hover="tada"><i class="fa fa-twitter"></i></a>
+                            <a href="#" class="instagram external" data-animate-hover="tada"><i class="fa fa-instagram"></i></a>
+                            <a href="#" class="gplus external" data-animate-hover="tada"><i class="fa fa-google-plus"></i></a>
+                            <a href="#" class="email external" data-animate-hover="tada"><i class="fa fa-envelope"></i></a>
+                        </p>
+
+
+                    </div>
+                    <!-- /.col-md-3 -->
+
+                </div>
+                <!-- /.row -->
+
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /#footer -->
+        <!-- *** FOOTER END *** -->
+        <!-- *** COPYRIGHT ***
+        _________________________________________________________ -->
+        <div id="copyright">
+            <div class="container">z
+                <div class="col-md-6">
+                    <p class="pull-left"</p>
+                </div>
+                <div class="col-md-6">
+                    <p class="pull-left">Được sản xuất vào năm 2022 Thiết kế bởi Stylitics Fashion</p>
+                </div>
+            </div>
+        </div>
+        <!-- *** COPYRIGHT END *** -->
+
+        <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+
+    </div>
+    <!-- /#all -->
+    <!-- *** SCRIPTS TO INCLUDE ***
+    _________________________________________________________ -->
+    <script src="~/Assets/Client/js/jquery-1.11.0.min.js"></script>
+    <script src="~/Assets/Client/js/jquery-ui.js"></script>
+    <script src="~/Assets/Client/js/bootstrap.min.js"></script>
+    <script src="~/Assets/Client/js/jquery.cookie.js"></script>
+    <script src="~/Assets/Client/js/waypoints.min.js"></script>
+    <script src="~/Assets/Client/js/modernizr.js"></script>
+    <script src="~/Assets/Client/js/bootstrap-hover-dropdown.js"></script>
+    <script src="~/Assets/Client/js/owl.carousel.min.js"></script>
+    <script src="~/Assets/Client/js/front.js"></script>
+    <script src="~/Assets/Client/js/custom.js"></script>
+    <script src="~/Assets/Client/js/baseController.js"></script>
+</body>
+
+</html>

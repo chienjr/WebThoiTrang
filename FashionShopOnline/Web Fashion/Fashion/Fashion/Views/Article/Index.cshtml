@@ -1,0 +1,36 @@
+﻿@model List<Model.EF.BaiViet>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+@section Menu_Article
+{
+    @{
+        Html.RenderAction("Menu_Article", "Article");
+    }
+}
+
+<div id="blog-listing">
+
+    @foreach (var item in Model)
+    {
+        <div class="post">
+            <h2><a href="/bai-viet-@item.MaBaiViet">@item.TieuDe</a></h2>
+            <hr>
+            <p class="date-comments">
+            <div class="image">
+                <a href="/bai-viet-@item.MaBaiViet">
+                    <img src="@item.HinhAnhBaiViet" class="img-responsive">
+                </a>
+            </div>
+            <p class="intro">@item.MoTa</p>
+            <p class="read-more">
+                <a href="/bai-viet-@item.MaBaiViet" class="btn btn-primary">Đọc tiếp</a>
+            </p>
+        </div>
+    }
+</div>
+

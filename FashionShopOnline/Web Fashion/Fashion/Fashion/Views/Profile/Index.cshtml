@@ -1,0 +1,91 @@
+﻿@model Fashion.Models.ChangeProfile
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Menu_Profile
+{
+    <div class="panel panel-default sidebar-menu">
+
+        <div class="panel-heading">
+            <h3 class="panel-title">Tài khoản</h3>
+        </div>
+
+        <div class="panel-body">
+            <ul class="nav nav-pills nav-stacked category-menu">
+                <li>
+                    <a href="/thong-tin-tai-khoan">Thông tin chung</a>
+
+                </li>
+                <li>
+                    <a href="/lich-su-mua-hang">Lịch sử mua hàng</a>
+                </li>
+
+            </ul>
+
+        </div>
+    </div>
+}
+
+<div class="box">
+    <div class="box-header" data-original-title>
+        <h2>Thông tin tài khoản</h2>
+    </div>
+
+    @using (Html.BeginForm("Index", "Profile", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            <label for="name">Tên khách hàng</label>
+            @Html.TextBoxFor(model => model.TenKhachHang, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.TenKhachHang)
+        </div>
+        <div class="form-group">
+            <label for="email">Tên đăng nhập</label>
+            @Html.TextBoxFor(model => model.TenDangNhap, new { @class = "form-control", @readonly = "readonly" })
+            @Html.ValidationMessageFor(model => model.TenDangNhap)
+        </div>
+        <div class="form-group">
+            <label for="password">Địa chỉ</label>
+            @Html.TextBoxFor(model => model.DiaChi, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.DiaChi)
+        </div>
+        <div class="form-group">
+            <label for="password">Số điện thoại</label>
+            @Html.TextBoxFor(model => model.SoDienThoai, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.SoDienThoai)
+        </div>
+        <div class="form-group">
+            <label for="password">Email</label>
+            @Html.TextBoxFor(model => model.Email, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.Email)
+        </div>
+        <div class="form-group">
+            <label for="changePassword">Đổi mật khẩu</label>
+            <input type="checkbox" class="form-control" id="txtChange" name="txtChange" data-toggle="collapse" data-target=".passbox" value="Đổi mật khẩu">
+        </div>
+        <div class="passbox collapse">
+            <div class="form-group">
+                <label for="password">Mật khẩu cũ</label>
+                @Html.PasswordFor(model => model.ExPassword, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.ExPassword)
+            </div>
+            <div class="form-group">
+                <label for="passwordNew">Mật khẩu mới</label>
+                @Html.PasswordFor(model => model.Password, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.Password)
+            </div>
+            <div class="form-group">
+                <label for="passwordNew">Xác nhận mật khẩu mới</label>
+                @Html.PasswordFor(model => model.ConfirmPassword, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.ConfirmPassword)
+            </div>
+        </div>
+        <div class="text-center">
+            <button type="submit" class="btn btn-primary" id="btnUpdate" name="btnUpdate"><i class="fa fa-user-md"></i>Cập nhật</button>
+        </div>
+    }
+</div>

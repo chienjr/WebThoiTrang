@@ -1,0 +1,22 @@
+﻿@model List<Model.EF.BaiViet>
+
+<div class="panel panel-default sidebar-menu">
+
+    <div class="panel-heading">
+        <h3 class="panel-title">Bài viết</h3>
+    </div>
+
+    <div class="panel-body">
+
+        <ul class="nav nav-pills nav-stacked">
+            @foreach (var item in Model)
+            {
+                <li><a href="/bai-viet-@item.MaBaiViet">@item.TieuDe</a></li>
+            }
+
+        </ul>
+
+    </div>
+
+</div>
+

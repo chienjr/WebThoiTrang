@@ -1,0 +1,35 @@
+﻿@model List<Model.EF.DanhMucSP>
+
+<div class="panel panel-default sidebar-menu">
+    <div class="panel-heading">
+        <h3 class="panel-title">Danh mục sản phẩm</h3>
+    </div>
+    <div class="panel-body">
+        <ul class="nav nav-pills nav-stacked category-menu">
+            @foreach (var item in Model)
+            {
+                <li class="active">
+                    <a href="#">@item.TenDanhMucSP</a>
+                    @foreach (var i in ViewBag.SubCategory)
+                    {
+                        if (@i.MaDanhMucSPCha == @item.MaDanhMucSP)
+                        {
+                            <ul>
+                                <li><a href="/danh-muc-@i.MaDanhMucSP">@i.TenDanhMucSP</a></li>
+                            </ul>
+                        }
+                    }
+                </li>
+            }
+            <li class="active">
+                <a href="#">Bộ sưu tập</a>
+                @foreach (var i in ViewBag.Collection)
+                {
+                    <ul>
+                        <li><a href="/bo-suu-tap-@i.MaBST">@i.TenBST</a></li>
+                    </ul>
+                }
+            </li>
+        </ul>
+    </div>
+</div>

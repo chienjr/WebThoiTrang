@@ -1,0 +1,47 @@
+﻿@model Model.EF.DonHang
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Areas/Admin/Views/Shared/Layout.cshtml";
+}
+
+<div class="row-fluid sortable">
+    <div class="box span12">
+        <div class="box-header" data-original-title>
+            <h2><i class="halflings-icon white edit"></i><span class="break"></span>Sửa thông tin đơn hàng</h2>
+            <div class="box-icon">
+                <a href="#" class="btn-setting"><i class="halflings-icon white wrench"></i></a>
+                <a href="#" class="btn-minimize"><i class="halflings-icon white chevron-up"></i></a>
+                <a href="#" class="btn-close"><i class="halflings-icon white remove"></i></a>
+            </div>
+        </div>
+        <div class="box-content">
+            @using (Html.BeginForm("Edit", "OrderForm", FormMethod.Post))
+            {
+                @Html.AntiForgeryToken()
+                @Html.ValidationSummary(true)
+                @Html.HiddenFor(model => model.MaDonHang)
+                <div class="form-horizontal">
+                    <fieldset>
+                        <div class="control-group">
+                            <label class="control-label" for="typeahead">Tình trạng giao hàng</label>
+                            <div class="controls">
+                                @Html.DropDownListFor(model => model.TinhTrangGiaoHang, new List<SelectListItem>
+               {
+                   new SelectListItem() { Text = "Đã giao hàng", Value = "true"},
+                   new SelectListItem() { Text = "Chưa giao hàng", Value = "false"}
+               })
+                            </div>
+                        </div>
+
+                        <div class="form-actions">
+                            <a style="background-color:#702222; text-decoration: none; color: #fff" class="btn" href="@Url.Action("Index", "OrderForm")">Back to list</a>
+                            <button type="submit" class="btn btn-primary" name="btnSubmit">Submit</button>
+                            <button type="reset" class="btn">Reset</button>
+                        </div>
+                    </fieldset>
+                </div>
+            }
+        </div>
+    </div><!--/span-->
+</div><!--/row-->

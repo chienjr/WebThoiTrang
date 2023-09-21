@@ -1,0 +1,51 @@
+﻿@model List<Model.EF.SanPham>
+
+<div id="hot">
+    <div class="box">
+        <div class="container">
+            <div class="col-md-12">
+                <h2>Sản phẩm mới</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="product-slider">
+            @foreach (var item in Model)
+            {
+                <div class="item" style="height:330px;">
+                    <div class="product">
+                        <div class="flip-container">
+                            <div class="flipper">
+                                <div class="reveal">
+                                    <img src="@item.HinhAnhSP" width="450px" alt="" class="img-responsive">
+                                    <div class="hidden">
+                                        <div class="caption">
+                                            <div class="centered">
+                                                <a href="/chi-tiet-san-pham-@item.MaSP">Xem chi tiết</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="invisible">
+                            <img src="@item.HinhAnhSP" alt="" class="img-responsive">
+                        </a>
+                        <div class="text">
+                            <h3><a href="/chi-tiet-san-pham-@item.MaSP">@item.TenSP</a></h3>
+                            <p class="price">Giá tiền: @item.GiaSP VNĐ</p>
+                        </div>
+                        <!-- /.text -->
+                        <div class="ribbon new">
+                            <div class="theribbon">MỚI</div>
+                            <div class="ribbon-background"></div>
+                        </div>
+                    </div><!-- /.product -->
+                </div>
+            }
+        </div>
+        <!-- /.product-slider -->
+    </div>
+    <!-- /.container -->
+</div>

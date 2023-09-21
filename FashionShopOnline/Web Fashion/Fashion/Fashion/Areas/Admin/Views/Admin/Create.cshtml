@@ -1,0 +1,78 @@
+﻿@model Model.EF.QuanTriVien
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Areas/Admin/Views/Shared/Layout.cshtml";
+}
+
+<div class="row-fluid sortable">
+    <div class="box span12">
+        <div class="box-header" data-original-title>
+            <h2><i class="halflings-icon white edit"></i><span class="break"></span>Thêm quản trị viên</h2>
+            <div class="box-icon">
+                <a href="#" class="btn-setting"><i class="halflings-icon white wrench"></i></a>
+                <a href="#" class="btn-minimize"><i class="halflings-icon white chevron-up"></i></a>
+                <a href="#" class="btn-close"><i class="halflings-icon white remove"></i></a>
+            </div>
+        </div>
+        <div class="box-content">
+            @using (Html.BeginForm())
+            {
+                @Html.AntiForgeryToken()
+                @Html.ValidationSummary(true)
+                <div class="form-horizontal">
+                    <fieldset>
+                        <div class="control-group">
+                            <label class="control-label" for="typeahead">Họ tên</label>
+                            <div class="controls">
+                                @Html.TextBoxFor(model => model.TenAdmin, new { @class = "span6 typeahead" })
+                                @Html.ValidationMessageFor(model => model.TenAdmin)
+                            </div>
+                        </div>
+
+                        <div class="control-group">
+                            <label class="control-label" for="typeahead">Email</label>
+                            <div class="controls">
+                                @Html.TextBoxFor(model => model.Email, new { @class = "span6 typeahead" })
+                                @Html.ValidationMessageFor(model => model.Email)
+                            </div>
+                        </div>
+
+                        <div class="control-group">
+                            <label class="control-label" for="typeahead">Tài khoản</label>
+                            <div class="controls">
+                                @Html.TextBoxFor(model => model.TaiKhoan, new { @class = "span6 typeahead" })
+                                @Html.ValidationMessageFor(model => model.TaiKhoan)
+                            </div>
+                        </div>
+
+                        <div class="control-group">
+                            <label class="control-label" for="typeahead">Mật khẩu</label>
+                            <div class="controls">
+                                @Html.PasswordFor(model => model.MatKhau, new { @class = "span6 typeahead" })
+                                @Html.ValidationMessageFor(model => model.MatKhau)
+                            </div>
+                        </div>
+
+                        <div class="control-group">
+                            <label class="control-label" for="selectError3">Phân Loại</label>
+                            <div class="controls">
+                                @Html.DropDownListFor(model => model.PhanLoai, new List<SelectListItem>
+               {
+                   new SelectListItem() { Text = "SuperAdmin", Value = "true"},
+                   new SelectListItem() { Text = "Admin", Value = "false"}
+               })
+                            </div>
+                        </div>
+
+                        <div class="form-actions">
+                            <a style="background-color:#702222; text-decoration: none; color: #fff" class="btn" href="@Url.Action("Index", "Admin")">Back to list</a>
+                            <button type="submit" class="btn btn-primary" name="btnSubmit">Submit</button>
+                            <button type="reset" class="btn">Reset</button>
+                        </div>
+                    </fieldset>
+                </div>
+            }
+        </div>
+    </div><!--/span-->
+</div><!--/row-->

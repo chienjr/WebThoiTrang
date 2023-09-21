@@ -1,0 +1,10 @@
+﻿@model List<Model.EF.QuangCao>
+
+<div id="main-slider">
+    @foreach (var item in Model)
+    {
+        <div class="item">
+            <img class="img-responsive" src="@item.HinhAnhQC" alt="">
+        </div>
+    }
+</div>

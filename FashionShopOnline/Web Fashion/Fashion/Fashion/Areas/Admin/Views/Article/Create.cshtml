@@ -1,0 +1,81 @@
+﻿@model Model.EF.BaiViet
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Areas/Admin/Views/Shared/Layout.cshtml";
+}
+
+@section jsfooter
+{
+    <script>
+        function BrowseServer() {
+            var finder = new CKFinder();
+            finder.selectActionFunction = SetFileField;
+            finder.popup();
+        }
+        function SetFileField(fileUrl) {
+            document.getElementById("Image").value = fileUrl;
+        }
+    </script>
+}
+
+<div class="row-fluid sortable">
+    <div class="box span12">
+        <div class="box-header" data-original-title>
+            <h2><i class="halflings-icon white edit"></i><span class="break"></span>Thêm bài viết</h2>
+            <div class="box-icon">
+                <a href="#" class="btn-setting"><i class="halflings-icon white wrench"></i></a>
+                <a href="#" class="btn-minimize"><i class="halflings-icon white chevron-up"></i></a>
+                <a href="#" class="btn-close"><i class="halflings-icon white remove"></i></a>
+            </div>
+        </div>
+        <div class="box-content">
+            @using (Html.BeginForm())
+            {
+                @Html.AntiForgeryToken()
+                @Html.ValidationSummary(true)
+                <div class="form-horizontal">
+                    <fieldset>
+                        <div class="control-group">
+                            <label class="control-label" for="typeahead">Tiêu đề</label>
+                            <div class="controls">
+                                @Html.TextBoxFor(model => model.TieuDe, new { @class = "span6 typeahead" })
+                                @Html.ValidationMessageFor(model => model.TieuDe)
+                            </div>
+                        </div>
+
+                        <div class="control-group">
+                            <label class="control-label" for="typeahead">Mô tả</label>
+                            <div class="controls">
+                                @Html.TextBoxFor(model => model.MoTa, new { @class = "span6 typeahead" })
+                                @Html.ValidationMessageFor(model => model.MoTa)
+                            </div>
+                        </div>
+
+                        <div class="control-group">
+                            <label class="control-label" for="typeahead">Hình ảnh</label>
+                            <div class="controls">
+                                @Html.TextBoxFor(model => model.HinhAnhBaiViet, new { @id = "Image", @name = "Image" })
+                                <input value="Chọn ảnh" class="input-file uniform_on" id="fileInput" type="button" onclick="BrowseServer();" />
+                            </div>
+                        </div>
+
+                        <div class="control-group">
+                            <label class="control-label" for="typeahead">Nội dung</label>
+                            <div class="controls">
+                                @Html.TextAreaFor(model => model.NoiDung, new { @class = "cleditor", @rows = "6" })
+                            </div>
+                        </div>
+                        <div class="form-actions">
+                            <a style="background-color:#702222; text-decoration: none; color: #fff" class="btn" href="@Url.Action("Index", "Article")">Back to list</a>
+                            <button type="submit" class="btn btn-primary" name="btnSubmit">Submit</button>
+                            <button type="reset" class="btn">Reset</button>
+                        </div>
+                    </fieldset>
+                </div>
+            }
+
+
+        </div>
+    </div><!--/span-->
+</div><!--/row-->

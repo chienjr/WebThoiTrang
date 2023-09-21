@@ -1,0 +1,80 @@
+E:\MTA\Visual studio\Fashion\Model\bin\Debug\Model.dll.config
+E:\MTA\Visual studio\Fashion\Model\bin\Debug\Model.dll
+E:\MTA\Visual studio\Fashion\Model\bin\Debug\Model.pdb
+E:\MTA\Visual studio\Fashion\Model\bin\Debug\EntityFramework.dll
+E:\MTA\Visual studio\Fashion\Model\bin\Debug\EntityFramework.SqlServer.dll
+E:\MTA\Visual studio\Fashion\Model\bin\Debug\EntityFramework.xml
+E:\MTA\Visual studio\Fashion\Model\bin\Debug\EntityFramework.SqlServer.xml
+E:\MTA\Visual studio\Fashion\Model\obj\Debug\Models.csprojResolveAssemblyReference.cache
+E:\MTA\Visual studio\Fashion\Model\obj\Debug\Model.dll
+E:\MTA\Visual studio\Fashion\Model\obj\Debug\Model.pdb
+E:\MTA\Visual studio\Fashion\Model\bin\Debug\db_thoitrang.mdf
+E:\MTA\Visual studio\Fashion\Model\bin\Debug\db_thoitrang_log.ldf
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Model\bin\Debug\db_thoitrang.mdf
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Model\bin\Debug\db_thoitrang_log.ldf
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Model\bin\Debug\Model.dll.config
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Model\bin\Debug\Model.dll
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Model\bin\Debug\Model.pdb
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Model\bin\Debug\EntityFramework.dll
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Model\bin\Debug\EntityFramework.xml
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Model\obj\Debug\Models.csprojResolveAssemblyReference.cache
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Model\obj\Debug\Model.dll
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Model\obj\Debug\Model.pdb
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Model\bin\Debug\db_thoitrang.mdf
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Model\bin\Debug\db_thoitrang_log.ldf
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Model\bin\Debug\Model.dll.config
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Model\bin\Debug\Model.dll
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Model\bin\Debug\Model.pdb
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Model\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Model\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Model\obj\Debug\Models.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Model\obj\Debug\Models.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Model\obj\Debug\Models.csproj.CopyComplete
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Model\obj\Debug\Model.dll
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Model\obj\Debug\Model.pdb
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Model\bin\Debug\db_thoitrang.mdf
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Model\bin\Debug\db_thoitrang_log.ldf
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Model\bin\Debug\Model.dll.config
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Model\bin\Debug\Model.dll
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Model\bin\Debug\Model.pdb
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Model\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Model\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Model\obj\Debug\Models.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Model\obj\Debug\Models.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Model\obj\Debug\Models.csproj.CopyComplete
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Model\obj\Debug\Model.dll
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Model\obj\Debug\Model.pdb
+D:\FashionShopOnline\Web Fashion\Fashion\Model\bin\Debug\db_thoitrang.mdf
+D:\FashionShopOnline\Web Fashion\Fashion\Model\bin\Debug\db_thoitrang_log.ldf
+D:\FashionShopOnline\Web Fashion\Fashion\Model\bin\Debug\Model.dll.config
+D:\FashionShopOnline\Web Fashion\Fashion\Model\bin\Debug\Model.dll
+D:\FashionShopOnline\Web Fashion\Fashion\Model\bin\Debug\Model.pdb
+D:\FashionShopOnline\Web Fashion\Fashion\Model\bin\Debug\EntityFramework.dll
+D:\FashionShopOnline\Web Fashion\Fashion\Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\FashionShopOnline\Web Fashion\Fashion\Model\bin\Debug\EntityFramework.xml
+D:\FashionShopOnline\Web Fashion\Fashion\Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\FashionShopOnline\Web Fashion\Fashion\Model\obj\Debug\Models.csproj.AssemblyReference.cache
+D:\FashionShopOnline\Web Fashion\Fashion\Model\obj\Debug\Models.csproj.CoreCompileInputs.cache
+D:\FashionShopOnline\Web Fashion\Fashion\Model\obj\Debug\Models.csproj.CopyComplete
+D:\FashionShopOnline\Web Fashion\Fashion\Model\obj\Debug\Model.dll
+D:\FashionShopOnline\Web Fashion\Fashion\Model\obj\Debug\Model.pdb
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Model\bin\Debug\db_thoitrang.mdf
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Model\bin\Debug\db_thoitrang_log.ldf
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Model\bin\Debug\Model.dll.config
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Model\bin\Debug\Model.dll
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Model\bin\Debug\Model.pdb
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Model\bin\Debug\EntityFramework.dll
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Model\bin\Debug\EntityFramework.xml
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Model\obj\Debug\Models.csproj.AssemblyReference.cache
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Model\obj\Debug\Models.csproj.CoreCompileInputs.cache
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Model\obj\Debug\Models.csproj.CopyComplete
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Model\obj\Debug\Model.dll
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Model\obj\Debug\Model.pdb

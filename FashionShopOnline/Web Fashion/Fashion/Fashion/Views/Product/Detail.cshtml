@@ -1,0 +1,159 @@
+﻿@model Model.EF.SanPham
+
+@{
+    ViewBag.Title = "ProductDetail";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Menu_Category
+{
+    @{
+        Html.RenderAction("Menu_Category", "Product");
+    }
+}
+
+<script>
+    function buy(id)
+    {
+        window.location = "/Cart/AddItem?productID=" + id + "&colorID=" + document.getElementById("color").value + "&sizeID=" + document.getElementById("size").value+"&quantity=1";
+    }
+</script>
+
+<div class="row" id="productMain">
+    <div class="col-sm-6">
+        <div id="mainImage">
+            <img src="@Model.HinhAnhSP" alt="" class="img-responsive">
+        </div>
+
+    </div>
+    <div class="col-sm-6">
+        <div class="box">
+            <h1 class="text-center">@Model.TenSP</h1>
+            @{
+                if (@Model.GiaKhuyenMai != null)
+                { 
+                    var saleprice = (int)@Model.GiaKhuyenMai;
+                    <p class="price">Giá tiền: <span style="text-decoration: line-through">@Model.GiaSP.ToString("0,0")</span> VNĐ</p>
+                    <p class="price">Khuyến mãi: @saleprice.ToString("0,0") VNĐ</p>
+                }
+                else
+                {
+                    <p class="price">Giá tiền: @Model.GiaSP.ToString("0,0") VNĐ</p>
+                }
+            }
+            <table>
+                <tr>
+                    <td><label>Màu sắc: </label></td>
+                    <td>
+                        <select class="form-control" id="color">
+                            @foreach (var item in ViewBag.ListColor)
+                            {
+                                <option value="@item.MaMau">@item.TenMau</option>
+                            }
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Kích thước: </label></td>
+                    <td>
+                        <select class="form-control" id="size">
+                            @foreach (var item in ViewBag.ListSize)
+                            {
+                                <option value="@item.MaSize">@item.TenSize</option>
+                            }
+                        </select>
+                    </td>
+                </tr>
+                <tr><td></td><td></td></tr>
+            </table>
+            <p style="margin-top:20px;" class="text-center buttons">
+                <a href="#" onclick="buy(@Model.MaSP)" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> Thêm vào giỏ</a>
+            </p>
+        </div>
+
+        <div class="col-xs-3">
+            <a href="@Model.HinhAnhSP" class="thumb">
+                <img src="@Model.HinhAnhSP" alt="" class="img-responsive">
+            </a>
+        </div>
+        @foreach (var item in ViewBag.ListImage)
+        {
+            <div class="col-xs-3">
+                <a href="@item.TenHinhAnh" class="thumb">
+                    <img src="@item.TenHinhAnh" alt="" class="img-responsive">
+                </a>
+            </div>
+        }
+
+    </div>
+
+</div>
+<div class="box" id="details">
+    <p><h4>Chi tiết sản phẩm</h4></p>
+    @Html.DisplayTextFor(x => x.MoTa)
+    <h4>Màu sắc</h4>
+    <h4>Kích cỡ</h4>
+    <blockquote>
+        <p>Mọi thắc mắc về sản phẩm xin liên hệ: </p>
+        <p>Hotline: 098 345 4030</p>
+        <p>Giờ làm việc: 8h - 21h thứ 2 đến thứ 6; 8h - 17h thứ 7, chủ nhật
+    </blockquote>
+    <hr>
+
+
+    <h4>Bình luận</h4>
+    @foreach (var cmt in ViewBag.Comments)
+    {
+        <div id="comments" data-animate="fadeInUp">
+            <div class="row comment">
+                <div class="col-sm-3 col-md-2 text-center-xs">
+                    <p>
+                        <img src="~/Assets/Client/img/icon-profile.jpg" class="img-responsive img-circle">
+                    </p>
+                </div>
+                <div class="col-sm-9 col-md-10">
+                    <h5>@cmt.HoTenNBL</h5>
+                    <p class="posted"><i class="fa fa-clock-o"></i> Ngày gửi: @cmt.NgayGio</p>
+                    <p>@cmt.NoiDung</p>
+                </div>
+            </div>
+        </div>
+    }
+
+
+    <div id="comment-form" data-animate="fadeInUp">
+        <h4>Để lại bình luận</h4>
+        @using (Html.BeginForm("Detail", "Product", FormMethod.Post))
+        {
+            @Html.AntiForgeryToken()
+            @Html.ValidationSummary(true)
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label for="name">
+                            Họ tên <span class="required">*</span>
+                        </label>
+                        <input type="text" class="form-control" name="name">
+                    </div>
+                </div>
+            </div>
+            <input type="hidden" name="id" value="@Model.MaSP"/>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="form-group">
+                        <label for="comment">
+                            Bình luận <span class="required">*</span>
+                        </label>
+                        <textarea class="form-control" name="comment" rows="4"></textarea>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12 text-right">
+                    <button type="submit" class="btn btn-primary"><i class="fa fa-comment-o"></i> Gửi bình luận</button>
+                </div>
+            </div>
+        }
+    </div>
+</div>

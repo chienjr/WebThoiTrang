@@ -1,0 +1,383 @@
+﻿@model List<Model.EF.DanhMucSP>
+
+<div class="navbar navbar-default yamm" role="navigation" id="navbar">
+    <div class="container">
+        <div class="navbar-header">
+
+            <a class="navbar-brand home" href="/trang-chu" data-animate-hover="bounce">
+                <img src="~/Assets/Client/img/logo.png" alt="Obaju logo" class="hidden-xs">
+                <img src="~/Assets/Client/img/logo-small.png" alt="Obaju logo" class="visible-xs"><span class="sr-only">Stylitics - Trang chủ</span>
+            </a>
+            <div class="navbar-buttons">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation">
+                    <span class="sr-only">Toggle navigation</span>
+                    <i class="fa fa-align-justify"></i>
+                </button>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#search">
+                    <span class="sr-only">Toggle search</span>
+                    <i class="fa fa-search"></i>
+                </button>
+                <a class="btn btn-default navbar-toggle" href="order.html">
+                    <i class="fa fa-shopping-cart"></i>  <span class="hidden-xs">3 items in cart</span>
+                </a>
+            </div>
+        </div>
+        <div class="navbar-collapse collapse" id="navigation">
+
+            <ul class="nav navbar-nav navbar-left">
+                @{
+                    if (HttpContext.Current.Request.CurrentExecutionFilePath.Contains("/danh-muc-"))
+                    {
+                        <li>
+                            <a href="/trang-chu">Trang chủ</a>
+                        </li>
+
+                        <li class="dropdown yamm-fw">
+                            <a href="#" class="dropdown-toggle" style="background-color: #4fbfa8; color:#555555;" data-toggle="dropdown" data-hover="dropdown" data-delay="200">Danh mục sản phẩm</a>
+                            <ul class="dropdown-menu" style="width:500px">
+                                <li>
+                                    <div class="yamm-content">
+                                        <div class="row">
+                                            @foreach (var item in Model)
+                                            {
+                                                <div class="col-sm-6">
+                                                <h5>@item.TenDanhMucSP</h5>
+                                                <ul>
+                                                    @foreach (var i in ViewBag.SubCategory)
+                                                    {
+                                                        if (@i.MaDanhMucSPCha == @item.MaDanhMucSP)
+                                                        {
+                                                            <li>
+                                                                <a href="/danh-muc-@i.MaDanhMucSP">@i.TenDanhMucSP</a>
+                                                            </li>
+                                                        }
+                                                    }
+                                                </ul>
+                                            </div>
+                                            }
+                                        </div>
+                                    </div>
+
+                                    <!-- /.yamm-content -->
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="dropdown yamm-fw">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200">Bộ sưu tập</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <div class="yamm-content">
+                                        <ul>
+                                            @foreach (var col in ViewBag.Collection)
+                                            {
+                                                <li>
+                                                    <a href="/bo-suu-tap-@col.MaBST">@col.TenBST</a>
+                                                </li>
+                                            }
+                                        </ul>
+                                    </div>
+                                    <!-- /.yamm-content -->
+                                </li>
+                            </ul>
+                        </li>
+                        <li id="blog" class="dropdown yamm-fw">
+                            <a href="/bai-viet" data-hover="dropdown" data-delay="200">Bài viết </a>
+                        </li>
+
+                        <li id="contact" class="dropdown yamm-fw">
+                            <a href="/lien-he" data-hover="dropdown" data-delay="200">Liên hệ </a>
+                        </li>
+                    }
+                    else if (HttpContext.Current.Request.CurrentExecutionFilePath.Contains("/bo-suu-tap-"))
+                    {
+                        <li>
+                            <a href="/trang-chu">Trang chủ</a>
+                        </li>
+
+                        <li class="dropdown yamm-fw">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200">Danh mục sản phẩm</a>
+                            <ul class="dropdown-menu" style="width:500px">
+                                <li>
+                                    <div class="yamm-content">
+                                        <div class="row">
+                                            @foreach (var item in Model)
+                                            {
+                                                <div class="col-sm-6">
+                                                <h5>@item.TenDanhMucSP</h5>
+                                                <ul>
+                                                    @foreach (var i in ViewBag.SubCategory)
+                                                    {
+                                                        if (@i.MaDanhMucSPCha == @item.MaDanhMucSP)
+                                                        {
+                                                            <li>
+                                                                <a href="/danh-muc-@i.MaDanhMucSP">@i.TenDanhMucSP</a>
+                                                            </li>
+                                                        }
+                                                    }
+                                                </ul>
+                                            </div>
+                                            }
+                                        </div>
+                                    </div>
+
+                                    <!-- /.yamm-content -->
+                                </li>
+                            </ul>
+                        </li>
+                    
+                        <li class="dropdown yamm-fw">
+                            <a href="#" class="dropdown-toggle" style="background-color: #4fbfa8; color:#555555;" data-toggle="dropdown" data-hover="dropdown" data-delay="200">Bộ sưu tập</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <div class="yamm-content">
+                                        <ul>
+                                            @foreach (var col in ViewBag.Collection)
+                                            {
+                                                <li>
+                                                    <a href="/bo-suu-tap-@col.MaBST">@col.TenBST</a>
+                                                </li>
+                                            }
+                                        </ul>
+                                    </div>
+                                    <!-- /.yamm-content -->
+                                </li>
+                            </ul>
+                        </li>
+                        <li id="blog" class="dropdown yamm-fw">
+                            <a href="/bai-viet" data-hover="dropdown" data-delay="200">Bài viết </a>
+                        </li>
+
+                        <li id="contact" class="dropdown yamm-fw">
+                            <a href="/lien-he" data-hover="dropdown" data-delay="200">Liên hệ </a>
+                        </li>
+                    }
+                    else if (HttpContext.Current.Request.CurrentExecutionFilePath.Contains("/bai-viet"))
+                    {
+                        <li>
+                            <a href="/trang-chu">Trang chủ</a>
+                        </li>
+
+                        <li class="dropdown yamm-fw">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200">Danh mục sản phẩm</a>
+                            <ul class="dropdown-menu" style="width:500px">
+                                <li>
+                                    <div class="yamm-content">
+                                        <div class="row">
+                                            @foreach (var item in Model)
+                                            {
+                                                <div class="col-sm-6">
+                                                <h5>@item.TenDanhMucSP</h5>
+                                                <ul>
+                                                    @foreach (var i in ViewBag.SubCategory)
+                                                    {
+                                                        if (@i.MaDanhMucSPCha == @item.MaDanhMucSP)
+                                                        {
+                                                            <li>
+                                                                <a href="/danh-muc-@i.MaDanhMucSP">@i.TenDanhMucSP</a>
+                                                            </li>
+                                                        }
+                                                    }
+                                                </ul>
+                                            </div>
+                                            }
+                                        </div>
+                                    </div>
+
+                                    <!-- /.yamm-content -->
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="dropdown yamm-fw">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200">Bộ sưu tập</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <div class="yamm-content">
+                                        <ul>
+                                            @foreach (var col in ViewBag.Collection)
+                                            {
+                                                <li>
+                                                    <a href="/bo-suu-tap-@col.MaBST">@col.TenBST</a>
+                                                </li>
+                                            }
+                                        </ul>
+                                    </div>
+                                    <!-- /.yamm-content -->
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li id="blog" class="dropdown yamm-fw">
+                            <a href="/bai-viet" style="background-color: #4fbfa8; color:#555555;" data-hover="dropdown" data-delay="200">Bài viết </a>
+                        </li>
+
+                        <li id="contact" class="dropdown yamm-fw">
+                            <a href="/lien-he" data-hover="dropdown" data-delay="200">Liên hệ </a>
+                        </li>
+                    }
+                    else if (HttpContext.Current.Request.CurrentExecutionFilePath.Contains("/lien-he"))
+                    {
+                        <li>
+                            <a href="/trang-chu">Trang chủ</a>
+                        </li>
+
+                        <li class="dropdown yamm-fw">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200">Danh mục sản phẩm</a>
+                            <ul class="dropdown-menu" style="width:500px">
+                                <li>
+                                    <div class="yamm-content">
+                                        <div class="row">
+                                            @foreach (var item in Model)
+                                            {
+                                                <div class="col-sm-6">
+                                                <h5>@item.TenDanhMucSP</h5>
+                                                <ul>
+                                                    @foreach (var i in ViewBag.SubCategory)
+                                                    {
+                                                        if (@i.MaDanhMucSPCha == @item.MaDanhMucSP)
+                                                        {
+                                                            <li>
+                                                                <a href="/danh-muc-@i.MaDanhMucSP">@i.TenDanhMucSP</a>
+                                                            </li>
+                                                        }
+                                                    }
+                                                </ul>
+                                            </div>
+                                            }
+                                        </div>
+                                    </div>
+
+                                    <!-- /.yamm-content -->
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="dropdown yamm-fw">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200">Bộ sưu tập</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <div class="yamm-content">
+                                        <ul>
+                                            @foreach (var col in ViewBag.Collection)
+                                            {
+                                                <li>
+                                                    <a href="/bo-suu-tap-@col.MaBST">@col.TenBST</a>
+                                                </li>
+                                            }
+                                        </ul>
+                                    </div>
+                                    <!-- /.yamm-content -->
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li id="blog" class="dropdown yamm-fw">
+                            <a href="/bai-viet" data-hover="dropdown" data-delay="200">Bài viết </a>
+                        </li>
+
+                        <li id="contact" class="dropdown yamm-fw">
+                            <a href="/lien-he" style="background-color: #4fbfa8; color:#555555;" data-hover="dropdown" data-delay="200">Liên hệ </a>
+                        </li>
+                    }
+                    else
+                    {
+                        <li>
+                            <a href="/trang-chu" style="background-color: #4fbfa8; color:#555555;">Trang chủ</a>
+                        </li>
+                        <li class="dropdown yamm-fw">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200">Danh mục sản phẩm</a>
+                            <ul class="dropdown-menu" style="width:500px">
+                                <li>
+                                    <div class="yamm-content">
+                                        <div class="row">
+                                            @foreach (var item in Model)
+                                            {
+                                                <div class="col-sm-6">
+                                                <h5>@item.TenDanhMucSP</h5>
+                                                <ul>
+                                                    @foreach (var i in ViewBag.SubCategory)
+                                                    {
+                                                        if (@i.MaDanhMucSPCha == @item.MaDanhMucSP)
+                                                        {
+                                                            <li>
+                                                                <a href="/danh-muc-@i.MaDanhMucSP">@i.TenDanhMucSP</a>
+                                                            </li>
+                                                        }
+                                                    }
+                                                </ul>
+                                            </div>
+                                            }
+                                        </div>
+                                    </div>
+
+                                    <!-- /.yamm-content -->
+                                </li>
+                            </ul>
+                        </li>
+
+
+                        <li class="dropdown yamm-fw">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200">Bộ sưu tập</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <div class="yamm-content">
+                                        <ul>
+                                            @foreach (var col in ViewBag.Collection)
+                                            {
+                                                <li>
+                                                    <a href="/bo-suu-tap-@col.MaBST">@col.TenBST</a>
+                                                </li>
+                                            }
+                                        </ul>
+                                    </div>
+                                    <!-- /.yamm-content -->
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li id="blog" class="dropdown yamm-fw">
+                            <a href="/bai-viet" data-hover="dropdown" data-delay="200">Bài viết </a>
+                        </li>
+
+                        <li id="contact" class="dropdown yamm-fw">
+                            <a href="/lien-he" data-hover="dropdown" data-delay="200">Liên hệ </a>
+                        </li>
+                    }
+
+                }
+            </ul>
+
+        </div>
+        <div class="navbar-buttons">
+
+            <div class="navbar-collapse collapse right" id="order-overview">
+                <a href="/gio-hang" class="btn btn-primary navbar-btn"><i class="fa fa-shopping-cart"></i><span class="hidden-sm">Giỏ hàng</span></a>
+            </div>
+            <!--/.nav-collapse -->
+
+            <div class="navbar-collapse collapse right" id="search-not-mobile">
+                <button type="button" class="btn navbar-btn btn-primary" data-toggle="collapse" data-target="#search">
+                    <span class="sr-only">Toggle search</span>
+                    <i class="fa fa-search"></i>
+                </button>
+            </div>
+
+        </div>
+
+        <div class="collapse clearfix" id="search">
+            @using (Html.BeginForm("SearchResult", "Product", FormMethod.Get, new { @class = "navbar-form", @role = "search" }))
+            {
+                @Html.AntiForgeryToken()
+                @Html.ValidationSummary(true)
+                <div class="input-group">
+                    <input type="text" id="txtkeyword" name="keyword" class="form-control" placeholder="Tìm kiếm">
+                    <span class="input-group-btn">
+                        <button type="submit" class="btn btn-primary"><i class="fa fa-search"></i></button>
+                    </span>
+                </div>
+            }
+        </div>
+
+    </div>
+</div>

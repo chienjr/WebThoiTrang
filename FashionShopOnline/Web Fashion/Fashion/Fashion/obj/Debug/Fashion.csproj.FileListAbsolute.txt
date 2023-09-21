@@ -1,0 +1,344 @@
+E:\MTA\Visual studio\Fashion\Fashion\bin\Fashion.dll.config
+E:\MTA\Visual studio\Fashion\Fashion\bin\Fashion.dll
+E:\MTA\Visual studio\Fashion\Fashion\bin\Fashion.pdb
+E:\MTA\Visual studio\Fashion\Fashion\bin\Antlr3.Runtime.dll
+E:\MTA\Visual studio\Fashion\Fashion\bin\Microsoft.AspNet.Identity.Core.dll
+E:\MTA\Visual studio\Fashion\Fashion\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\MTA\Visual studio\Fashion\Fashion\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\MTA\Visual studio\Fashion\Fashion\bin\Microsoft.Owin.dll
+E:\MTA\Visual studio\Fashion\Fashion\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\MTA\Visual studio\Fashion\Fashion\bin\Microsoft.Owin.Security.Cookies.dll
+E:\MTA\Visual studio\Fashion\Fashion\bin\Microsoft.Owin.Security.dll
+E:\MTA\Visual studio\Fashion\Fashion\bin\Microsoft.Owin.Security.Facebook.dll
+E:\MTA\Visual studio\Fashion\Fashion\bin\Microsoft.Owin.Security.Google.dll
+E:\MTA\Visual studio\Fashion\Fashion\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\MTA\Visual studio\Fashion\Fashion\bin\Microsoft.Owin.Security.OAuth.dll
+E:\MTA\Visual studio\Fashion\Fashion\bin\Microsoft.Owin.Security.Twitter.dll
+E:\MTA\Visual studio\Fashion\Fashion\bin\Microsoft.Web.Infrastructure.dll
+E:\MTA\Visual studio\Fashion\Fashion\bin\Newtonsoft.Json.dll
+E:\MTA\Visual studio\Fashion\Fashion\bin\Owin.dll
+E:\MTA\Visual studio\Fashion\Fashion\bin\System.Web.Helpers.dll
+E:\MTA\Visual studio\Fashion\Fashion\bin\System.Web.Mvc.dll
+E:\MTA\Visual studio\Fashion\Fashion\bin\System.Web.Optimization.dll
+E:\MTA\Visual studio\Fashion\Fashion\bin\System.Web.Razor.dll
+E:\MTA\Visual studio\Fashion\Fashion\bin\System.Web.WebPages.Deployment.dll
+E:\MTA\Visual studio\Fashion\Fashion\bin\System.Web.WebPages.dll
+E:\MTA\Visual studio\Fashion\Fashion\bin\System.Web.WebPages.Razor.dll
+E:\MTA\Visual studio\Fashion\Fashion\bin\WebGrease.dll
+E:\MTA\Visual studio\Fashion\Fashion\bin\System.Web.Helpers.xml
+E:\MTA\Visual studio\Fashion\Fashion\bin\System.Web.Mvc.xml
+E:\MTA\Visual studio\Fashion\Fashion\bin\System.Web.Optimization.xml
+E:\MTA\Visual studio\Fashion\Fashion\bin\System.Web.Razor.xml
+E:\MTA\Visual studio\Fashion\Fashion\bin\System.Web.WebPages.xml
+E:\MTA\Visual studio\Fashion\Fashion\bin\System.Web.WebPages.Deployment.xml
+E:\MTA\Visual studio\Fashion\Fashion\bin\System.Web.WebPages.Razor.xml
+E:\MTA\Visual studio\Fashion\Fashion\bin\Newtonsoft.Json.xml
+E:\MTA\Visual studio\Fashion\Fashion\bin\Antlr3.Runtime.pdb
+E:\MTA\Visual studio\Fashion\Fashion\bin\Microsoft.AspNet.Identity.Core.xml
+E:\MTA\Visual studio\Fashion\Fashion\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\MTA\Visual studio\Fashion\Fashion\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\MTA\Visual studio\Fashion\Fashion\bin\Microsoft.Owin.xml
+E:\MTA\Visual studio\Fashion\Fashion\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\MTA\Visual studio\Fashion\Fashion\bin\Microsoft.Owin.Security.xml
+E:\MTA\Visual studio\Fashion\Fashion\bin\Microsoft.Owin.Security.Facebook.xml
+E:\MTA\Visual studio\Fashion\Fashion\bin\Microsoft.Owin.Security.Cookies.xml
+E:\MTA\Visual studio\Fashion\Fashion\bin\Microsoft.Owin.Security.OAuth.xml
+E:\MTA\Visual studio\Fashion\Fashion\bin\Microsoft.Owin.Security.Google.xml
+E:\MTA\Visual studio\Fashion\Fashion\bin\Microsoft.Owin.Security.Twitter.xml
+E:\MTA\Visual studio\Fashion\Fashion\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\MTA\Visual studio\Fashion\Fashion\obj\Debug\Fashion.csprojResolveAssemblyReference.cache
+E:\MTA\Visual studio\Fashion\Fashion\obj\Debug\Fashion.dll
+E:\MTA\Visual studio\Fashion\Fashion\obj\Debug\Fashion.pdb
+E:\MTA\Visual studio\Fashion\Fashion\bin\Model.dll
+E:\MTA\Visual studio\Fashion\Fashion\bin\Model.pdb
+E:\MTA\Visual studio\Fashion\Fashion\bin\CKFinder.dll
+E:\MTA\Visual studio\Fashion\Fashion\bin\db_thoitrang.mdf
+E:\MTA\Visual studio\Fashion\Fashion\bin\db_thoitrang_log.ldf
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Fashion\bin\db_thoitrang.mdf
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Fashion\bin\db_thoitrang_log.ldf
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Fashion\bin\Fashion.dll.config
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Fashion\bin\Fashion.dll
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Fashion\bin\Fashion.pdb
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Fashion\bin\Antlr3.Runtime.dll
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Fashion\bin\CKFinder.dll
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Fashion\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Fashion\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Fashion\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Fashion\bin\Microsoft.Owin.dll
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Fashion\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Fashion\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Fashion\bin\Microsoft.Owin.Security.dll
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Fashion\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Fashion\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Fashion\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Fashion\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Fashion\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Fashion\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Fashion\bin\Model.dll
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Fashion\bin\Newtonsoft.Json.dll
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Fashion\bin\Owin.dll
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Fashion\bin\System.Web.Helpers.dll
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Fashion\bin\System.Web.Mvc.dll
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Fashion\bin\System.Web.Optimization.dll
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Fashion\bin\System.Web.Razor.dll
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Fashion\bin\System.Web.WebPages.Deployment.dll
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Fashion\bin\System.Web.WebPages.dll
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Fashion\bin\System.Web.WebPages.Razor.dll
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Fashion\bin\WebGrease.dll
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Fashion\bin\Model.pdb
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Fashion\bin\System.Web.Helpers.xml
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Fashion\bin\System.Web.Mvc.xml
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Fashion\bin\System.Web.Optimization.xml
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Fashion\bin\System.Web.Razor.xml
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Fashion\bin\System.Web.WebPages.xml
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Fashion\bin\System.Web.WebPages.Deployment.xml
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Fashion\bin\System.Web.WebPages.Razor.xml
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Fashion\bin\Newtonsoft.Json.xml
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Fashion\bin\Antlr3.Runtime.pdb
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Fashion\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Fashion\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Fashion\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Fashion\bin\Microsoft.Owin.xml
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Fashion\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Fashion\bin\Microsoft.Owin.Security.xml
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Fashion\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Fashion\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Fashion\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Fashion\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Fashion\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Fashion\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Fashion\obj\Debug\Fashion.csprojResolveAssemblyReference.cache
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Fashion\obj\Debug\Fashion.dll
+C:\Users\naq\Desktop\Công nghệ web\Fashion\Fashion\obj\Debug\Fashion.pdb
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Fashion\bin\db_thoitrang.mdf
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Fashion\bin\db_thoitrang_log.ldf
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Fashion\bin\Fashion.dll.config
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Fashion\bin\Fashion.dll
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Fashion\bin\Fashion.pdb
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Fashion\bin\Antlr3.Runtime.dll
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Fashion\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Fashion\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Fashion\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Fashion\bin\Microsoft.Owin.dll
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Fashion\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Fashion\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Fashion\bin\Microsoft.Owin.Security.dll
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Fashion\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Fashion\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Fashion\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Fashion\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Fashion\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Fashion\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Fashion\bin\Model.dll
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Fashion\bin\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Fashion\bin\Owin.dll
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Fashion\bin\System.Web.Helpers.dll
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Fashion\bin\System.Web.Mvc.dll
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Fashion\bin\System.Web.Optimization.dll
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Fashion\bin\System.Web.Razor.dll
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Fashion\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Fashion\bin\System.Web.WebPages.dll
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Fashion\bin\System.Web.WebPages.Razor.dll
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Fashion\bin\WebGrease.dll
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Fashion\bin\Model.pdb
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Fashion\bin\Model.dll.config
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Fashion\bin\System.Web.Helpers.xml
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Fashion\bin\System.Web.Mvc.xml
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Fashion\bin\System.Web.Optimization.xml
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Fashion\bin\System.Web.Razor.xml
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Fashion\bin\System.Web.WebPages.xml
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Fashion\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Fashion\bin\System.Web.WebPages.Razor.xml
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Fashion\bin\Newtonsoft.Json.xml
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Fashion\bin\Antlr3.Runtime.pdb
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Fashion\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Fashion\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Fashion\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Fashion\bin\Microsoft.Owin.xml
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Fashion\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Fashion\bin\Microsoft.Owin.Security.xml
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Fashion\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Fashion\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Fashion\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Fashion\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Fashion\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Fashion\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Fashion\obj\Debug\Fashion.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Fashion\obj\Debug\Fashion.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Fashion\obj\Debug\Fashion.csproj.CopyComplete
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Fashion\obj\Debug\Fashion.dll
+C:\Users\Administrator\Desktop\FashionShopOnline\Công nghệ web\Fashion\Fashion\obj\Debug\Fashion.pdb
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\db_thoitrang.mdf
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\db_thoitrang_log.ldf
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Fashion.dll.config
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Fashion.dll
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Fashion.pdb
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Antlr3.Runtime.dll
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.Owin.dll
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.Owin.Security.dll
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Model.dll
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Owin.dll
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\System.Web.Helpers.dll
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\System.Web.Mvc.dll
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\System.Web.Optimization.dll
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\System.Web.Razor.dll
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\System.Web.WebPages.dll
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\System.Web.WebPages.Razor.dll
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\WebGrease.dll
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Model.pdb
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Model.dll.config
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\System.Web.Helpers.xml
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\System.Web.Mvc.xml
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\System.Web.Optimization.xml
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\System.Web.Razor.xml
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\System.Web.WebPages.xml
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\System.Web.WebPages.Razor.xml
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Newtonsoft.Json.xml
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Antlr3.Runtime.pdb
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.Owin.xml
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.Owin.Security.xml
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Fashion\obj\Debug\Fashion.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Fashion\obj\Debug\Fashion.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Fashion\obj\Debug\Fashion.csproj.CopyComplete
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Fashion\obj\Debug\Fashion.dll
+C:\Users\Administrator\Desktop\FashionShopOnline\Web Fashion\Fashion\Fashion\obj\Debug\Fashion.pdb
+D:\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\db_thoitrang.mdf
+D:\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\db_thoitrang_log.ldf
+D:\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Fashion.dll.config
+D:\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Fashion.dll
+D:\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Fashion.pdb
+D:\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Antlr3.Runtime.dll
+D:\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.AspNet.Identity.Core.dll
+D:\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.Owin.dll
+D:\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.Owin.Security.Cookies.dll
+D:\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.Owin.Security.dll
+D:\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.Owin.Security.Facebook.dll
+D:\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.Owin.Security.Google.dll
+D:\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.Owin.Security.OAuth.dll
+D:\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.Owin.Security.Twitter.dll
+D:\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.Web.Infrastructure.dll
+D:\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Model.dll
+D:\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Newtonsoft.Json.dll
+D:\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Owin.dll
+D:\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\System.Web.Helpers.dll
+D:\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\System.Web.Mvc.dll
+D:\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\System.Web.Optimization.dll
+D:\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\System.Web.Razor.dll
+D:\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\System.Web.WebPages.Deployment.dll
+D:\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\System.Web.WebPages.dll
+D:\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\System.Web.WebPages.Razor.dll
+D:\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\WebGrease.dll
+D:\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Model.pdb
+D:\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Model.dll.config
+D:\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\System.Web.Helpers.xml
+D:\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\System.Web.Mvc.xml
+D:\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\System.Web.Optimization.xml
+D:\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\System.Web.Razor.xml
+D:\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\System.Web.WebPages.xml
+D:\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\System.Web.WebPages.Deployment.xml
+D:\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\System.Web.WebPages.Razor.xml
+D:\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Newtonsoft.Json.xml
+D:\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Antlr3.Runtime.pdb
+D:\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.AspNet.Identity.Core.xml
+D:\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.Owin.xml
+D:\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.Owin.Security.xml
+D:\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.Owin.Security.Facebook.xml
+D:\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.Owin.Security.Cookies.xml
+D:\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.Owin.Security.OAuth.xml
+D:\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.Owin.Security.Google.xml
+D:\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.Owin.Security.Twitter.xml
+D:\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\FashionShopOnline\Web Fashion\Fashion\Fashion\obj\Debug\Fashion.csproj.AssemblyReference.cache
+D:\FashionShopOnline\Web Fashion\Fashion\Fashion\obj\Debug\Fashion.csproj.CoreCompileInputs.cache
+D:\FashionShopOnline\Web Fashion\Fashion\Fashion\obj\Debug\Fashion.csproj.CopyComplete
+D:\FashionShopOnline\Web Fashion\Fashion\Fashion\obj\Debug\Fashion.dll
+D:\FashionShopOnline\Web Fashion\Fashion\Fashion\obj\Debug\Fashion.pdb
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\db_thoitrang.mdf
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\db_thoitrang_log.ldf
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Fashion.dll.config
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Fashion.dll
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Fashion.pdb
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Antlr3.Runtime.dll
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.Owin.dll
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.Owin.Security.dll
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.Owin.Security.Google.dll
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.Web.Infrastructure.dll
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Model.dll
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Newtonsoft.Json.dll
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Owin.dll
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\System.Web.Helpers.dll
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\System.Web.Mvc.dll
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\System.Web.Optimization.dll
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\System.Web.Razor.dll
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\System.Web.WebPages.Deployment.dll
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\System.Web.WebPages.dll
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\System.Web.WebPages.Razor.dll
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\WebGrease.dll
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Model.pdb
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Model.dll.config
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\System.Web.Helpers.xml
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\System.Web.Mvc.xml
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\System.Web.Optimization.xml
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\System.Web.Razor.xml
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\System.Web.WebPages.xml
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\System.Web.WebPages.Deployment.xml
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\System.Web.WebPages.Razor.xml
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Newtonsoft.Json.xml
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Antlr3.Runtime.pdb
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.Owin.xml
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.Owin.Security.xml
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.Owin.Security.Google.xml
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Fashion\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Fashion\obj\Debug\Fashion.csproj.AssemblyReference.cache
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Fashion\obj\Debug\Fashion.csproj.CoreCompileInputs.cache
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Fashion\obj\Debug\Fashion.csproj.CopyComplete
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Fashion\obj\Debug\Fashion.dll
+D:\Năm 4 HK1\DienToanDamMay\FashionShopOnline\FashionShopOnline\Web Fashion\Fashion\Fashion\obj\Debug\Fashion.pdb

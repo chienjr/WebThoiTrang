@@ -1,0 +1,55 @@
+﻿@model Fashion.Models.RegisterModel
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="box">
+    <h1>Tạo tài khoản mới</h1>
+
+    <p class="lead">Bạn chưa là thành viên?</p>
+    <p>Với việc đăng kí này, bạn đồng ý làm thành viên của chúng tôi! Quá trình đăng kí chỉ mất vài phút!</p>
+    <p class="text-muted">Nếu có thắc mắc gì hãy <a href="/Contact/">liên hệ với chúng tôi</a>, dịch vụ chăm sóc khách hàng của <em>Stylitic Fashion</em> hoạt động 24/7.</p>
+
+    <hr>
+    @using (Html.BeginForm("Index", "Register", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            <label for="name">Tên khách hàng</label>
+            @Html.TextBoxFor(model => model.TenKhachHang, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.TenKhachHang)
+        </div>
+        <div class="form-group">
+            <label for="email">Tên đăng nhập</label>
+            @Html.TextBoxFor(model => model.TenDangNhap, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.TenDangNhap)
+        </div>
+        <div class="form-group">
+            <label for="password">Mật khẩu</label>
+            @Html.PasswordFor(model => model.MatKhau, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.MatKhau)
+        </div>
+        <div class="form-group">
+            <label for="password">Địa chỉ</label>
+            @Html.TextBoxFor(model => model.DiaChi, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.DiaChi)
+        </div>
+        <div class="form-group">
+            <label for="password">Số điện thoại</label>
+            @Html.TextBoxFor(model => model.SoDienThoai, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.SoDienThoai)
+        </div>
+        <div class="form-group">
+            <label for="password">Email</label>
+            @Html.TextBoxFor(model => model.Email, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.Email)
+        </div>
+        <div class="text-center">
+            <button type="submit" class="btn btn-primary" id="btnSubmit" name="btnSubmit"><i class="fa fa-user-md"></i>Đăng ký</button>
+        </div>
+    }
+</div>
+<a href="~/Views/Register/Index.cshtml">~/Views/Register/Index.cshtml</a>

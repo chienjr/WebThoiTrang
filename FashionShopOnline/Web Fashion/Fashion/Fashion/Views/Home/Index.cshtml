@@ -1,0 +1,78 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Advantages
+{
+    <div id="advantages">
+
+        <div class="container">
+            <div class="same-height-row">
+                <div class="col-sm-4">
+                    <div class="box same-height clickable">
+                        <div class="icon">
+                            <i class="fa fa-heart"></i>
+                        </div>
+                        <h3><a href="#">CHẤT LƯỢNG DỊCH VỤ CAO</a></h3>
+                        <p>Dịch vụ chăm sóc khách hàng uy tín</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="box same-height clickable">
+                        <div class="icon">
+                            <i class="fa fa-tags"></i>
+                        </div>
+
+                        <h3><a href="#">GIÁ CẢ TỐT NHẤT</a></h3>
+                        <p>Giá cả của chúng tôi luôn đem lại sự hài lòng lớn nhất cho khách hàng</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="box same-height clickable">
+                        <div class="icon">
+                            <i class="fa fa-thumbs-up"></i>
+                        </div>
+
+                        <h3><a href="#">THANH TOÁN THUẬN TIỆN</a></h3>
+                        <p>Chuyển khoản hoặc thanh toán khi nhận hàng</p>
+                    </div>
+                </div>
+            </div>
+            <!-- /.row -->
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+}
+
+@section Slider
+{
+    @{
+        Html.RenderAction("Slider", "Home");
+    }
+}
+
+@section Inspired
+{
+    @{
+        Html.RenderAction("Inspired", "Home");
+    }
+}
+
+@section Article
+{
+    @{
+        Html.RenderAction("Article", "Home");
+    }
+}
+
+@section Hot_Product
+{
+    @{
+        Html.RenderAction("Hot_Product", "Home");
+    }
+}

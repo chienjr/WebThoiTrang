@@ -1,0 +1,37 @@
+﻿@model List<Model.EF.BaiViet>
+
+<div class="box text-center" data-animate="fadeInUp">
+    <div class="container">
+        <div class="col-md-12">
+            <h3 class="text-uppercase">XU HƯỚNG THỜI TRANG</h3>
+
+            <p class="lead">
+                Luôn cập nhật những xu hướng thời trang mới nhất <a href="/bai-viet" style="text-decoration:none">Xem những bài viết!</a>
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+
+    <div class="col-md-12" data-animate="fadeInUp">
+
+        <div id="blog-homepage" class="row">
+            @foreach (var item in Model)
+            {
+                <div class="col-sm-6">
+                    <div class="post">
+                        <h4><a href="/bai-viet-@item.MaBaiViet">@item.TieuDe</a></h4>
+                        <hr>
+                        <p class="intro">@item.MoTa</p>
+                        <p class="read-more">
+                            <a href="/bai-viet-@item.MaBaiViet" class="btn btn-primary">Đọc tiếp</a>
+                        </p>
+                    </div>
+                </div>
+            }
+
+        </div>
+        <!-- /#blog-homepage -->
+    </div>
+</div>

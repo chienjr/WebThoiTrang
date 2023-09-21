@@ -1,0 +1,72 @@
+﻿@model List<Model.EF.ChiTietDonHang>
+
+@{
+    ViewBag.Title = "PurchasingHistoryDetail";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Menu_Profile
+{
+    <div class="panel panel-default sidebar-menu">
+
+        <div class="panel-heading">
+            <h3 class="panel-title">Tài khoản</h3>
+        </div>
+
+        <div class="panel-body">
+            <ul class="nav nav-pills nav-stacked category-menu">
+                <li>
+                    <a href="/thong-tin-tai-khoan">Thông tin chung</a>
+
+                </li>
+                <li>
+                    <a href="/lich-su-mua-hang">Lịch sử mua hàng</a>
+                </li>
+
+            </ul>
+
+        </div>
+    </div>
+}
+
+
+<div class="row-fluid sortable">
+    <div class="box span12">
+        <div class="box-header" data-original-title>
+            <h2>Lịch sử mua hàng</h2>
+        </div>
+        <h2 style="color:red">Mã đơn hàng: @ViewBag.ID</h2>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Hình ảnh</th>
+                    <th>Tên sản phẩm</th>
+                    <th>Đơn giá</th>
+                    <th>Số lượng</td>
+                    <th>Tổng tiền</th>
+                </tr>
+            </thead>
+            @{
+                int sum = 0;
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td><img src="@item.SanPham.HinhAnhSP" width="150px" /></td>
+                            <td>@item.SanPham.TenSP</td>
+                            <td>@item.DonGia.ToString("0,0") VNĐ</td>
+                            <td>@item.SoLuong</td>
+                            <td>@((item.DonGia * item.SoLuong).ToString("0,0")) VNĐ</td>
+                        </tr>
+                        sum += (item.DonGia * item.SoLuong);
+                    }
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="5"><h3 style="color:red; float:right;">Tổng giá trị đơn hàng: @sum.ToString("0,0") VNĐ</h3></td>
+                    </tr>
+                </tfoot>
+            }
+        </table>
+    </div><!--/span-->
+</div>

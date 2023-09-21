@@ -1,0 +1,73 @@
+﻿@model Model.EF.SanPham
+
+@{
+    ViewBag.Title = "Detail";
+    Layout = "~/Areas/Admin/Views/Shared/Layout.cshtml";
+}
+
+<ul class="breadcrumb">
+    <li>
+        <i class="icon-home"></i>
+        <a href="index.html">Home</a>
+        <i class="icon-angle-right"></i>
+    </li>
+    <li><a href="#">Gallery</a></li>
+</ul>
+
+<div class="row-fluid sortable">
+    <div class="box span12">
+        <div class="box-header" data-original-title>
+            <h2> Chi tiết sản phẩm</h2>
+            <div class="box-icon">
+                <a href="#" id="toggle-fullscreen" class="hidden-phone hidden-tablet"><i class="halflings-icon white fullscreen"></i></a>
+                <a href="#" class="btn-setting"><i class="halflings-icon white wrench"></i></a>
+                <a href="#" class="btn-minimize"><i class="halflings-icon white chevron-up"></i></a>
+                <a href="#" class="btn-close"><i class="halflings-icon white remove"></i></a>
+            </div>
+        </div>
+        <div class="box-content">
+            <h1 style='color:red'>Mã sản phẩm: @Model.MaSP</h1>
+            <div class="masonry-gallery">
+                <div class="masonry-thumb">
+                    <a style="background:url(@Model.HinhAnhSP)" href="@Model.HinhAnhSP"><img class="grayscale" src="@Model.HinhAnhSP"></a>
+                </div>
+                @foreach (var item in ViewBag.Image)
+                {
+                    <div class="masonry-thumb">
+                        <a style="background:url(@item.TenHinhAnh)" href="@item.TenHinhAnh"><img class="grayscale" src="@item.TenHinhAnh"></a>
+                    </div>
+                }
+            </div>
+            <h2>Tên sản phẩm: @Model.TenSP</h2>
+            <h2>Màu sắc: 
+            @foreach(var color in ViewBag.ListColor)
+            {
+                <span>@color.TenMau </span>
+            }
+            </h2>
+            <h2>Kích thước: 
+            @foreach(var size in ViewBag.ListSize)
+            {
+                <span>@size.TenSize </span>
+            }
+            </h2>
+            <h2>Giá sản phẩm: @Model.GiaSP</h2>
+            <h2>Giá khuyến mại: @Model.GiaKhuyenMai</h2>
+            <h2>Ngày cập nhật: @Model.NgayCapNhat</h2>
+            <h2>Mô tả: @Html.DisplayTextFor(x => x.MoTa)</h2>
+            <h2>Số lượng: @Model.SoLuong</h2>
+            <h2>Danh mục: @Model.DanhMucSP.TenDanhMucSP</h2>
+            <h2>Thương hiệu: @Model.Hang.TenHang</h2>
+            <h2>Bộ sưu tập: @Model.BoSuuTap.TenBST</h2>
+        </div>
+        <div class="common-modal modal fade" id="common-Modal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <ul class="list-inline item-details">
+                    <li><a href="http://themifycloud.com">Admin templates</a></li>
+                    <li><a href="http://themescloud.org">Bootstrap themes</a></li>
+                </ul>
+            </div>
+        </div>
+    </div><!--/span-->
+
+</div><!--/row-->

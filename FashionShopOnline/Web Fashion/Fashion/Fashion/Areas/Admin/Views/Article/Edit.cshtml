@@ -1,0 +1,61 @@
+﻿@model Model.EF.BaiViet
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Areas/Admin/Views/Shared/Layout.cshtml";
+}
+
+<div class="row-fluid sortable">
+    <div class="box span12">
+        <div class="box-header" data-original-title>
+            <h2><i class="halflings-icon white edit"></i><span class="break"></span>Sửa bài viết</h2>
+            <div class="box-icon">
+                <a href="#" class="btn-setting"><i class="halflings-icon white wrench"></i></a>
+                <a href="#" class="btn-minimize"><i class="halflings-icon white chevron-up"></i></a>
+                <a href="#" class="btn-close"><i class="halflings-icon white remove"></i></a>
+            </div>
+        </div>
+        <div class="box-content">
+            @using (Html.BeginForm("Edit", "Article", FormMethod.Post))
+            {
+                @Html.AntiForgeryToken()
+                @Html.ValidationSummary(true)
+                @Html.HiddenFor(model => model.MaBaiViet)
+                <div class="form-horizontal">
+                    <fieldset>
+                        <div class="control-group">
+                            <label class="control-label" for="typeahead">Tiêu đề</label>
+                            <div class="controls">
+                                @Html.TextBoxFor(model => model.TieuDe, new { @class = "span6 typeahead" })
+                                @Html.ValidationMessageFor(model => model.TieuDe)
+                            </div>
+                        </div>
+
+                        <div class="control-group">
+                            <label class="control-label" for="typeahead">Mô tả</label>
+                            <div class="controls">
+                                @Html.TextBoxFor(model => model.MoTa, new { @class = "span6 typeahead" })
+                                @Html.ValidationMessageFor(model => model.MoTa)
+                            </div>
+                        </div>
+
+                        <div class="control-group">
+                            <label class="control-label" for="typeahead">Nội dung</label>
+                            <div class="controls">
+                                @Html.TextAreaFor(model => model.NoiDung, new { @class = "cleditor", @rows = "6" })
+                                @Html.ValidationMessageFor(model => model.NoiDung)
+                            </div>
+                        </div>
+                        <div class="form-actions">
+                            <a style="background-color:#702222; text-decoration: none; color: #fff" class="btn" href="@Url.Action("Index", "Article")">Back to list</a>
+                            <button type="submit" class="btn btn-primary" name="btnSubmit">Submit</button>
+                            <button type="reset" class="btn">Reset</button>
+                        </div>
+                    </fieldset>
+                </div>
+            }
+
+
+        </div>
+    </div><!--/span-->
+</div><!--/row-->

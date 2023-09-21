@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="robots" content="all,follow">
+    <meta name="googlebot" content="index,follow,snippet,archive">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Obaju e-commerce template">
+    <meta name="author" content="Ondrej Svestka | ondrejsvestka.cz">
+    <meta name="keywords" content="">
+
+    <title>
+        Stylitics Fashion
+    </title>
+
+    <meta name="keywords" content="">
+
+    <link href="http://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100" rel="stylesheet" type="text/css">
+
+    <!-- styles -->
+    <link href="~/Assets/Client/css/font-awesome.css" rel="stylesheet">
+    <link href="~/Assets/Client/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/Assets/Client/css/animate.min.css" rel="stylesheet">
+    <link href="~/Assets/Client/css/owl.carousel.css" rel="stylesheet">
+    <link href="~/Assets/Client/css/owl.theme.css" rel="stylesheet">
+
+    <!-- theme stylesheet -->
+    <link href="~/Assets/Client/css/style.default.css" rel="stylesheet" id="theme-stylesheet">
+
+    <!-- your stylesheet with modifications -->
+    <link href="~/Assets/Client/css/custom.css" rel="stylesheet">
+
+    <script src="~/Assets/Client/js/respond.min.js"></script>
+
+    <link rel="shortcut icon" href="~/Assets/Client/img/favicon.png">
+
+
+
+</head>
+
+<body>
+
+    <!-- *** TOPBAR ***
+    _________________________________________________________ -->
+    <div id="top">
+        <div class="container">
+            <div class="col-md-6 offer" data-animate="fadeInDown">
+                <a href="#" class="btn btn-success btn-sm" data-animate-hover="shake">Tin khuyến mãi</a>  <a href="#">Giảm giá tới 35% cho đơn hàng trên 500.000Đ</a>
+            </div>
+            <div class="col-md-6" data-animate="fadeInDown">
+                <ul class="menu">
+                    @{
+                        var session = (Fashion.Common.UserLogin)Session["USER_SESSION"];
+                        if (session != null)
+                        {
+                            <li><a href="#" data-toggle="modal">Xin chào @session.Name</a></li>
+                            <li><a href="/Home/Logout" data-toggle="modal">Đăng xuất</a></li>
+                            <li><a href="#">Thông tin tài khoản</a></li>
+                        }
+                        else
+                        {
+                            <li>
+                                <a href="Home/Login" data-toggle="modal" data-target="#login-modal">Đăng nhập</a>
+                            </li>
+                            <li>
+                                <a href="Register/Index">Đăng ký</a>
+                            </li>
+                        }
+                    }
+                    </ul>
+            </div>
+        </div>
+
+        @RenderSection("Login", required: false)
+
+
+    </div>
+
+    <!-- *** TOP BAR END *** -->
+    <!-- *** NAVBAR ***
+    _________________________________________________________ -->
+    <!--/.navbar-header -->
+    @{
+        Html.RenderAction("NavBar", "Home");
+    }
+    <!--/.nav-collapse -->
+    <!--/.nav-collapse -->
+    <!-- /.container -->
+    <!-- /#navbar -->
+    <!-- *** NAVBAR END *** -->
+
+    
+    
+    <div id="all">
+
+        <div id="content">
+            
+            
+            <div class="container">
+                <div class="col-md-12">
+                    @RenderSection("Slider", required: false)
+                </div>
+                <div class="col-md-9">
+                    
+                    @RenderBody()
+                    <!-- /#main-slider -->
+                </div>
+                <div class="col-md-3"></div>
+            </div>
+
+            <!-- *** ADVANTAGES HOMEPAGE ***
+            _________________________________________________________ -->
+            @RenderSection("Advantages", required: false)
+            <!-- /#advantages -->
+           
